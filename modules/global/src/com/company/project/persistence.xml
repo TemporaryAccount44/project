@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="project" transaction-type="RESOURCE_LOCAL">
+
+        <class>com.company.project.entity.spravochniki.Counteragents</class>
+        <class>com.company.project.entity.spravochniki.Banks</class>
+        <class>com.company.project.entity.spravochniki.Currency</class>
+        <class>com.company.project.entity.spravochniki.SimpleSpravochnik</class>
+        <class>com.company.project.entity.spravochniki.CurrencyExchange</class>
+    </persistence-unit>
+</persistence>

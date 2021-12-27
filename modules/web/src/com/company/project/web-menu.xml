@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-project" insertBefore="administration" caption="mainMsg://menu_config.application-project">
+        <item screen="project_Banks.browse" caption="mainMsg://menu_config.project_Banks.browse"/>
+        <item screen="project_Counteragents.browse" caption="mainMsg://menu_config.project_Counteragents.browse"/>
+        <item screen="project_Currency.browse" caption="mainMsg://menu_config.project_Currency.browse"/>
+        <item screen="project_CurrencyExchange.browse" caption="mainMsg://menu_config.project_CurrencyExchange.browse"/>
+    </menu>
+</menu-config>
